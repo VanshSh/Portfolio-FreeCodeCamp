@@ -1,0 +1,118 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #74ebd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #acb6e5,
+    #74ebd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+  width: 100%;
+}
+#navbar {
+  background-color: rgb(79, 171, 224);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  height: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+#navbar li {
+  display: inline-block;
+  justify-content: center;
+  padding: 20px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+nav a:hover {
+  background-color: blue;
+  color: wheat;
+}
+
+#welcome-section {
+  box-sizing: border-box;
+  padding: 250px 0;
+  font-weight: bolder;
+  text-align: center;
+  font-size: x-large;
+  text-shadow: 5px 5px 5px blue;
+  margin-top: 3.1rem;
+  margin-bottom: 5rem;
+  background-color: skyblue;
+  height: 100vh;
+}
+h2 img {
+  vertical-align: top;
+}
+
+#projects,
+#blogs {
+  font-size: 24px;
+  text-align: center;
+  margin: 2rem 0;
+}
+#projects li {
+  padding: 15px;
+  color: purple;
+}
+#projects a {
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: salmon;
+}
+
+
+#blogs li {
+  padding: 15px;
+  color: purple;
+}
+#blogs a {
+  box-sizing: border-box;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 12px;
+  background-color: salmon;
+}
+
+
+
+
+
+/* Footer */
+footer {
+  background-color: black;
+  color: wheat;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
+}
+
+footer li:hover {
+  background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 500px) {
+  #blogs p a {
+    margin: 2rem;
+  }
+}
